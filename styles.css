@@ -1,9 +1,10 @@
 /*  your css code here. If applicable */
 .cards{
-	display:flexbox;
-	
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
 }
- img{
+ .cards img{
 	 max-width:25vw;
 	 margin:10px;
 	 border:3px solid #000;
